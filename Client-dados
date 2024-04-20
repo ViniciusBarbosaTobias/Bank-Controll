@@ -1,0 +1,6 @@
+class Client:
+
+    def __init__(self, n, fone,cpf):
+        self.name = n
+        self.telephone = fone
+        self.cpf = cpf
