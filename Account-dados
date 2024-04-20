@@ -1,0 +1,8 @@
+class Account:
+
+    def __init__(self, holder, number, balance, cpf):
+        self.balance = balance
+        self.number = number    
+        self.holder = holder
+        self.cpf = cpf
+        return balance,number,holder, cpf
